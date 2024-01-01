@@ -15,7 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 local opts = {}
 
 -- setup keymap configurations
-require("keymaps")
+require("nvim-options")
 
 -- setup do package manager
 require("lazy").setup("plugins")
